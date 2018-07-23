@@ -198,9 +198,6 @@ endif
         " Quit normal mode
         nnoremap <silent> <Leader>q  :q<CR>
         nnoremap <Leader>Q  :qa!<CR>
-        " Move half page faster
-        nnoremap <Leader>d  <C-d>
-        nnoremap <Leader>u  <C-u>
         " Insert mode shortcut
         inoremap <C-h> <BS>
         inoremap <C-j> <Down>
@@ -220,9 +217,6 @@ endif
         cnoremap <C-a> <Home>
         cnoremap <C-e> <End>
         cnoremap <C-d> <Delete>
-        " jj | escaping
-        inoremap jj <Esc>
-        cnoremap jj <C-c>
         " Quit visual mode
         vnoremap v <Esc>
         " Move to the start of line
