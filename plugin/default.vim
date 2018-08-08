@@ -200,8 +200,6 @@ endif
         nnoremap <Leader>Q  :qa!<CR>
         " Insert mode shortcut
         inoremap <C-h> <BS>
-        inoremap <C-j> <Down>
-        inoremap <C-k> <Up>
         inoremap <C-b> <Left>
         inoremap <C-f> <Right>
         " Bash like
