@@ -215,8 +215,6 @@ endif
         cnoremap <C-a> <Home>
         cnoremap <C-e> <End>
         cnoremap <C-d> <Delete>
-        " Quit visual mode
-        vnoremap v <Esc>
         " Move to the start of line
         nnoremap H ^
         " Move to the end of line
