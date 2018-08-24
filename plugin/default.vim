@@ -323,6 +323,9 @@ endif
         nnoremap <Leader>w2 <C-W>v
       endif
     " }
+    " Select all{
+        nnoremap <Leader>sa ggVG
+    " }
 
   endif
 
