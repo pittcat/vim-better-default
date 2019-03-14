@@ -230,33 +230,9 @@ endif
         nnoremap Y y$
         " Auto indent pasted text
         " nnoremap p p=`]<C-o>
-        " Open shell in vim
-
-        if has('nvim')
-          fu! OpenTerminal()
-          " open split windows on the topleft
-          belowright split
-          " resize the height of terminal windows to 30
-          :terminal
-          startinsert
-          endf
-        else
-          fu! OpenTerminal()
-          " open split windows on the topleft
-          belowright split
-          " resize the height of terminal windows to 30
-          :call term_start('zsh', {'curwin' : 1, 'term_finish' : 'close'})
-          endf
-        endif
-        nnoremap <leader>' :call OpenTerminal()<cr>
-
-        tnoremap <expr> <C-\> "<C-\><C-n><CR>"
-        tnoremap <expr> <C-d> "<C-\><C-n>:bd!<cr>"
 
         " Search result highlight countermand
         nnoremap <Leader>sc :nohlsearch<CR>
-        " Toggle pastemode
-        nnoremap <Leader>tp :setlocal paste!<CR>
       endif
     " }
 
