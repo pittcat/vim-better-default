@@ -196,7 +196,7 @@ endif
       if !exists('g:vim_better_default_basic_key_mapping') ||
             \ g:vim_better_default_basic_key_mapping
         " Quit normal mode
-        nnoremap <silent> <Leader>q  :q<CR>
+        nnoremap <silent> <Leader>q  :confirm q<CR>
         nnoremap <Leader>Q  :qa!<CR>
         " Insert mode shortcut
         inoremap <C-h> <BS>
