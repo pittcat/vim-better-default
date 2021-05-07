@@ -90,11 +90,6 @@ set wildignore+=*\\tmp\\*,*.exe            " Windows
 " Visual shifting (does not exit Visual mode)
 vnoremap < <gv
 vnoremap > >gv
-" Treat long lines as break lines (useful when moving around in them)
-nmap <silent> j gj
-nmap <silent> k gk
-vmap <silent> j gj
-vmap <silent> k gk
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
