@@ -91,10 +91,10 @@ set wildignore+=*\\tmp\\*,*.exe            " Windows
 vnoremap < <gv
 vnoremap > >gv
 " Treat long lines as break lines (useful when moving around in them)
-nmap j gj
-nmap k gk
-vmap j gj
-vmap k gk
+nmap <silent> j gj
+nmap <silent> k gk
+vmap <silent> j gj
+vmap <silent> k gk
 
 " :W sudo saves the file
 " (useful for handling the permission-denied error)
