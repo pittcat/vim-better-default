@@ -251,22 +251,6 @@ endif
       endif
     " }
 
-    " Fold {
-      if !exists('g:vim_better_default_fold_key_mapping') ||
-            \ g:vim_better_default_fold_key_mapping
-        nnoremap <Leader>f0 :set foldlevel=0<CR>
-        nnoremap <Leader>f1 :set foldlevel=1<CR>
-        nnoremap <Leader>f2 :set foldlevel=2<CR>
-        nnoremap <Leader>f3 :set foldlevel=3<CR>
-        nnoremap <Leader>f4 :set foldlevel=4<CR>
-        nnoremap <Leader>f5 :set foldlevel=5<CR>
-        nnoremap <Leader>f6 :set foldlevel=6<CR>
-        nnoremap <Leader>f7 :set foldlevel=7<CR>
-        nnoremap <Leader>f8 :set foldlevel=8<CR>
-        nnoremap <Leader>f9 :set foldlevel=9<CR>
-      endif
-    " }
-
     " Window {
       if !exists('g:vim_better_default_window_key_mapping') ||
             \ g:vim_better_default_window_key_mapping
@@ -293,9 +277,6 @@ endif
         nnoremap <Leader>w\| <C-W>v
         nnoremap <Leader>w2 <C-W>v
       endif
-    " }
-    " Select all{
-        nnoremap <Leader>sa ggVG
     " }
 
   endif
